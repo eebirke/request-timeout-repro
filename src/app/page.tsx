@@ -74,7 +74,6 @@ export default function Home() {
             type="file"
             id="fileInput"
             onChange={createHandleFileUpload(setProgress, () => setSuccess(true), setError)}
-            accept=".mp4"
           />
           {error && <p>Error: {error}</p>}
           {success && <p>Upload successful!</p>}
