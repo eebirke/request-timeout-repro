@@ -1,4 +1,4 @@
-# Reproduction of requestTimeout Next.js
+# Reproduction of request timeout Next.js
 
 Run locally with `npm run dev`, go to `localhost:3000`.
 Throttle network speed in developer tools to 1 Mbps or lower (or Fast 3G on Firefox).
